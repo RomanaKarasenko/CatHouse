@@ -33,11 +33,13 @@ body {
   line-height: 40px;
   letter-spacing: 0.5px;
   font-style: normal;
+  margin: 0;
 
 }
 .header{
 display: flex; 
  align-items: center;
+ align-content: center;
  height: 56px;
 }
 .headertitle{
@@ -98,8 +100,6 @@ display: grid;
     gap: 48px;
     margin-top: 48px;
 }
-.articles {
-}
 .articlestitle {
 font-size: 16px;
 font-weight: 700;
@@ -129,14 +129,20 @@ letter-spacing: 0.5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px 8px;
+    padding: 0;
   
 }
 
+.socialmediacontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
 .socialmediaitems {
     display: grid;
     grid-template-columns: 32px 1fr;
     align-items: center;
-    justify-items: center;
     padding: 8px;
     color: var(--common-black, #2f2f37);
     border-radius: 16px;
@@ -144,6 +150,7 @@ letter-spacing: 0.5px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
+    height: 48px;
 }
 
 .socialmediaitems:nth-child(1) {
@@ -176,5 +183,17 @@ letter-spacing: 0.5px;
   line-height: 36px;
   letter-spacing: 0.5px;
 }
-.footer {
+.social-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
 }
+.header-footer{
+    display: flex; 
+     align-items: center;
+     align-content: center;
+     height: 56px;
+     margin-top: 25px;
+     background-color:#ECF6FF;
+    
+    }
