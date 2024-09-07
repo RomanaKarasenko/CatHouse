@@ -76,7 +76,6 @@ body {
   align-items: flex-end;
 }
 .herotext {
-  width: 248px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -182,7 +181,7 @@ body {
 .header-footer {
   display: flex;
   align-items: center;
-  align-content: center;
+
   height: 56px;
   margin-top: 25px;
   background-color: #ecf6ff;
