@@ -66,7 +66,6 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  height: 172px;
   background-size: cover;
   background-position: center;
   color: white;
@@ -74,6 +73,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  border-radius: 16px;
 }
 .herotext {
   font-weight: 700;
@@ -91,7 +91,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 48px;
-  margin-top: 48px;
+  margin-top: 96px;
 }
 .articlestitle {
   font-size: 16px;
@@ -107,7 +107,7 @@ body {
 }
 .socialmedia {
   width: 288px;
-  margin-top: 48px;
+  margin-top: 96px;
 }
 .socialmediatitle {
   font-size: 28px;
@@ -227,11 +227,18 @@ body {
   .articlestitle {
     margin-top: 0;
     margin-bottom: 12px;
-    font-size: 1.5rem;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 20px;
   }
 
   .articlestext {
     margin: 0;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .socialmediaul {
+    gap: 24px;
   }
 }
