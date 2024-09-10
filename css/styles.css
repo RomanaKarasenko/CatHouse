@@ -241,4 +241,18 @@ body {
   .socialmediaul {
     gap: 24px;
   }
+  @media screen and (min-width: 1158px) {
+    .socialmedia {
+      width: 360px;
+      gap: 24px;
+    }
+    .videocontainer {
+      width: 360px;
+      gap: 24px;
+    }
+    .articlescontainer {
+      width: 744px;
+      gap: 36px;
+    }
+  }
 }
