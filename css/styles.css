@@ -38,12 +38,8 @@ body {
 .header {
   display: flex;
   align-items: center;
-  align-content: center;
-  height: 56px;
 }
 .headertitle {
-  width: 107px;
-  height: 40px;
   color: #f07f2e;
   font-size: 24px;
   margin-left: 16px;
@@ -191,7 +187,6 @@ body {
     width: 736px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     gap: 23px;
   }
 
@@ -246,6 +241,9 @@ body {
       width: 360px;
       gap: 24px;
     }
+    .herocontainer {
+      width: 1128px;
+    }
     .videocontainer {
       width: 360px;
       gap: 24px;
@@ -253,6 +251,19 @@ body {
     .articlescontainer {
       width: 744px;
       gap: 36px;
+    }
+    .tabletart {
+      width: 744px;
+      grid-column: 1;
+    }
+    .tabletsocial {
+      width: 360px;
+      grid-column: 2;
+    }
+    .content-container {
+      display: grid;
+      gap: 24px; 
+      padding: 24px; 
     }
   }
 }
