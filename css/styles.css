@@ -172,7 +172,10 @@ body {
 .social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 5px;
+  margin-right: 16px;
+  padding: 8px;
+  border: 1px solid var(--common-black);
+  border-radius: 8px;
 }
 .header-footer {
   display: flex;
